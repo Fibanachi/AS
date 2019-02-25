@@ -1,0 +1,68 @@
+
+a{
+    text-decoration: none;
+    background: #cae285;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#cae285), to(#a3cd5a));
+    background: -moz-linear-gradient(#cae285, #a3cd5a);
+    background: linear-gradient(#cae285, #a3cd5a);
+    border: solid 1px #aad063;
+    border-bottom: solid 3px #799545;
+    box-shadow: inset 0 0 0 1px #e0eeb6;
+    color: #5d7731;
+    text-shadow: 0 1px 0 #d0e5a4;
+    padding: 8px;
+    margin: 5px;
+}
+a.active{
+    text-decoration: underline;
+    background: #b7b7b7;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#b7b7b7), to(#c2c2c2));
+    background: -moz-linear-gradient(#b7b7b7, #c2c2c2);
+    background: linear-gradient(#b7b7b7, #c2c2c2);
+    border: solid 1px #a2a2a2;
+    border-bottom: solid 3px #878787;
+    box-shadow: inset 0 0 0 1px #d4d4d4;
+}
+
+.container a{
+    background: #99b6df;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#99b6df), to(#638ec8));
+    background: -moz-linear-gradient(#99b6df, #638ec8);
+    background: linear-gradient(#99b6df, #638ec8);
+    border: solid 1px #6d94ce;
+    border-bottom: solid 3px #3867ac;
+    box-shadow: inset 0 0 0 1px #bbcfeb;
+    color: #fff;
+    text-shadow: 0 1px 0 #3c61ab;
+    padding: 0px 5px 0px 3px;
+
+}
+table{
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+th{
+    border: 1px solid grey;
+    background-color: yellow;
+}
+
+td{
+    border: 1px solid grey;
+}
+
+.result_row{
+    margin: 30px 0px 20px 0px;
+}
+
+.add_content{
+    margin: 30px 0px 20px 0px;
+}
+
+.delete{
+    margin-top: 40px;
+}
+
+.back{
+    margin-top: 20px;
+}
